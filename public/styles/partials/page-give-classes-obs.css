@@ -1,0 +1,12 @@
+#page-give-classes .input-block+.input-block, /* + : pega um .input-block que anterior a ele tenha um .input-block */
+#page-give-classes .input-block+.textarea-block, /* pega um textarea-block que tenha anterior a ele um .input-block */ 
+#page-give-classes .select-block+.input-block{ 
+  margin-top: 2.4rem;
+}
+
+
+@media (min-width:700px) {
+  /* .schedule-item .input-block {
+    margin-top: 0 !important;
+  } */
+}
